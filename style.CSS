@@ -10,6 +10,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .container{
     width: 90%;
@@ -42,7 +43,7 @@ main .container .inf{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 200px;
+    height: 220px;
 }
 main .container .inf .infDT{
     color: gray;
@@ -97,9 +98,82 @@ main .container .inf button{
 .page2 .inf1 .about h4{
     padding: 30px 0 15px;
 }
-.page2 .inf1 .about div{
+.page2 .inf1 .about > div{
     height: 131px;
 }
 .page2 .inf1 .about div > p{
     max-width: 323px;
+}
+.page3{
+    max-width: 720px;
+}
+.page3 > h3{
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 45px 0 10px;
+}
+.page3 .prices div{
+    padding-top: 40px;
+    max-width: 306px;
+}
+.page3 .prices div > h4{
+    border-bottom: solid red 2px;
+    padding-bottom: 11px;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 20px;
+    max-width: 200px;
+}
+.page3 .prices .bigdiv{
+    padding-top: 50px;
+}
+.page3 .prices .bigdiv > h4{
+    border-bottom: solid red 2px;
+    padding-bottom: 11px;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 20px;
+    max-width: 306px;
+}
+.page3 .prices div .txt{
+    padding: 0;
+}
+.page3 .prices div .txt p{
+    font-weight: 600;
+    padding: 5px 0 5px 0;
+    max-width: 217px;
+}
+.page3 .prices > img{
+    width: 320px;
+    max-height: 189px;
+}
+.page5{
+    margin: 120px auto;
+    max-width: 840px;
+}
+.page5 .inf2{
+    max-width: 421px;
+}
+.page5 img{
+    max-width: 393px;
+    height: 411px;
+}
+.page5 .inf2 h3{
+    font-size: 1.8em;
+    padding-bottom: 25px;
+}
+.page5 .inf2 p{
+    padding: 5px 0;
+}
+.page5 .inf2 h4{
+    font-size: 1.3em;
+    padding: 20px 0 20px 0;
+    border-bottom: solid red 1px;
+}
+.page5 .inf2 .we_in_numbers h4{
+    color: red;
+    font-size: 1.5em;
+    font-weight: 300;
+    border: none;
+    padding: 20px 0 0 0;
 }
