@@ -97,6 +97,7 @@ main .container .inf button{
 }
 .page2 .inf1 .about h4{
     padding: 30px 0 15px;
+    font-size: 1.2em;
 }
 .page2 .inf1 .about > div{
     height: 131px;
@@ -148,7 +149,7 @@ main .container .inf button{
     max-height: 189px;
 }
 .page5{
-    margin: 120px auto;
+    margin: 120px auto 50px;
     max-width: 840px;
 }
 .page5 .inf2{
@@ -176,4 +177,186 @@ main .container .inf button{
     font-weight: 300;
     border: none;
     padding: 20px 0 0 0;
+}
+.page6{
+    background-color: white;
+    color: black;
+    padding: 70px 0 20px;
+}
+.page6 .inf1{
+    max-width: 840px;
+}
+.page6 .inf1 > p{
+    font-weight: 600;
+    font-size: 1.2em;
+    max-width: 500px;
+}
+.page7{
+    background-color: #2f2f2f;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.page7 .reviews{
+    max-width: 700px;
+    padding-bottom: 50px;
+}
+.page7 h2{
+    font-size: 2em;
+    padding: 70px 0 20px;
+}
+.page7 .reviews p{
+    padding: 30px 0;
+    max-width: 350px;
+}
+.page7 .ninety-seven{
+    border-top: 1px red solid;
+    padding: 30px 0;
+    max-width: 215px !important;
+}
+.page7 .ninety-seven h3{
+    color: red;
+    font-size: 2em;
+}
+.page7 .ninety-seven p{
+    padding: 0;
+    max-width: 150px;
+    font-size: 0.8em;
+}
+.page7 .reviews > .d-flex{
+    padding-top: 30px;
+    max-width: 700px;
+}
+.page7 .comment{
+    border: white solid 1px;
+    padding: 15px;
+    margin: 0 20px 0 0;
+}
+.page7 .comment .profile{
+    max-width: 200px;
+    padding-bottom: 20px;
+}
+.page7 .comment .profile .circle-image{
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+  }
+.page7 .comment .profile .circle-image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.page7 .comment .profile .name-car{
+    align-items: center;
+}
+.page7 .comment .profile .name-car h4{
+    padding-bottom: 5px;
+}
+.page7 .comment .profile .name-car p{
+    padding-top: 5px;
+    font-size: 0.8em;
+}
+.page7 .comment > p{
+    font-size: 0.8em;
+    padding: 0;
+    max-width: 290px;
+}
+.page8{
+    padding: 150px 0;
+    background: url(detailing.jpg);
+    background-size: cover;
+    color: white;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+}
+.page8 h2{
+    font-size: 2.5em;
+    max-width: 350px;
+}
+.page8 .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.page8 .contact p{
+    max-width: 262px;
+    font-size: 1.2em;
+}
+.page8 .contact input{
+    background-color: transparent;
+    padding: 12px 30px 12px 15px;
+    border: white 1px solid;
+    color: white;
+    max-width: 262px;
+    margin: 5px 0;
+}
+.page8 .contact label{
+    margin: 5px 0;
+    font-size: 0.8em;
+}
+.page8 .contact label input{
+    vertical-align: sub;
+}
+.page8 .contact a{
+    color: gray;
+}
+.page8 .contact button{
+    background-color: red;
+    color: white;
+    padding: 13px 20px;
+    max-width: 262px;
+    border: none;
+    margin-top: 5px;
+}
+footer{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0.8125em;
+    background-color: #2f2f2f;
+    font-size: 0.8em;
+    color: white;
+    padding: 10px 0;
+}
+footer .container{
+    max-width: 800px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+footer .politics a{
+    color: gray;
+    padding: 5px 0;
+}
+footer .politics a:hover{
+    color: white;
+}
+footer .politics p{
+    color: gray;
+    padding: 5px 0;
+}
+footer .politics h2{
+    font-size: 1.5em;
+    max-width: 111px;
+    color: rgb(189, 189, 189);
+}
+footer .menu{
+    display: flex;
+    flex-direction: column;
+}
+footer .menu h3{
+    color: gray;
+    font-size: 2em;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+footer .menu a{
+    padding: 5px 0;
+}
+footer .menu a:hover{
+    color: gray;
 }
